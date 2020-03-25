@@ -1,1 +1,22 @@
 /* css style file */
+.site-header {
+    display: flex;
+    justify-content: center;
+}
+form {
+    margin: 0.9rem;
+    width: 310px; /* Set the width of the sidebar */
+    position: fixed; /*  Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /*  Stay on top */
+    left: 0;
+    padding-top: 50px;
+  }
+  .small-image{ width: 200px; }
+  .grid-container{
+      padding-left: 310px;
+  }
+  .grid-item{
+      display: flex;
+      flex-direction: row;
+  }
+  
