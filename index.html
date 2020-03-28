@@ -1,85 +1,117 @@
 <DOCTYPE html>
-<html lang >
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>migracode_hotel </title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
-        <html lang="en">
-            <style>
-                body {
-                  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?auto=format&bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=800&s=c03ca4b989b0e552447bf11f7ae384f7');
-                }
-                </style>
-
-    </head>
-    <body>
-        <div class="site-header">
-            <div class="site-header__title"><h1><em>Bookings To Your Dream Destinations</em></h1></div>
-          </div>
-          <div class="container">
-            <!-- Content here -->
-
-            <form>
-  <div class="form-group">
-    <label for="Destinations">Search</label>
-    <input type="text" class="form-control"  placeholder="barcelona">
-  </div>
+  <html lang >
+      <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>migracode_hotel </title>
+          <link rel="stylesheet" href="styles2.css">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+         
+          <style>
+              body {
+                background-image: url('https://images.pexels.com/photos/1111317/pexels-photo-1111317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+              }
+              </style>
   
-  <div class="form-group">
-    <label for="exampleInputCheck-inDate">check-in date</label>
-    <input type="date" class="form-control"    >
-   
-  </div>
-  <div class="form-group">
-    <label for="exampleInputCheck-outDate">check-out date</label>
-    <input type="date" class="form-control"  >
+      </head>
+      <body>
+          <div class="site-header">
+              <div class="site-header__title"><h1><em>Bookings To Your Dream Destinations</em></h1></div>
+            </div>
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col"><form>
+                  <div class="form-group">
+                    <label for="Destinations">Search</label>
+                    <input type="text" class="form-control" id="Destinations" placeholder="barcelona">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="exampleInputCheck-inDate">check-in date</label>
+                    <input type="date" class="form-control" id="exampleInputCheck-inDate"   >
+                   
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputCheck-outDate">check-out date</label>
+                    <input type="date" class="form-control" id="exampleInputCheck-outDate" >
+                    
+                  </div>
+                
+                  <div class="form-row">
+                    <div class="col">
+                      <input type="number" class="form-control" placeholder="Adults">
+                      
+                    </div>
+                    <div class="col">
+                      <input type="number" class="form-control" placeholder="Childern">
+                    </div>
+                    <div class="col">
+                      <input type="number" class="form-control" placeholder="Rooms">
+                    </div>
+                  </div>
+                
+                   <div class="form-check">
+                    <label for="business traveller">Are you travelling for work?</label>
+                    <div class="form-row">
+                      
+                     <div class="col">
+                      <input type="checkbox" class="form-check-input" >
+                      <label class="form-check-label" for="exampleCheck1">Yes</label>
+                     </div>
+                     <div class="col">
+                      <input type="checkbox" class="form-check-input" >
+                      <label class="form-check-label" for="exampleCheck1">No</label>
+                     </div>
+                    </div>
+                
+                  </div> 
+                  
+                  <button type="Search" class="btn btn-primary">Search</button>
+                </form>
+              </div>
+
+                <div class="col-9">
+                  
+               
+                  <div class="grid-item hotel-1">
+                      <div class="hotel-image"> <img src="https://r-cf.bstatic.com/images/hotel/max1024x768/347/34783651.jpg" class="small-image"> </div>
+                   
+                    <div class="hotel-information">
+                      <b> Hotel 1 </b><br>
+                      <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2991.7405741145644!2d2.18844995020294!3d41.423149879159126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bcd3a0379fdd%3A0xb4ee821c684b2632!2sHotel%20Laumon!5e0!3m2!1ses!2ses!4v1585411715427!5m2!1ses!2ses" >show on map</a> <br>
+                       Hotel Lloret Ramblas is situated on Barcelona’s famous Las Ramblas, just outside Plaza Catalunya Square.
+                    </div>
+
+                </div>
+                <div class="grid-item hotel-2">
+                  <div class="hotel-image"> <img src="https://r-cf.bstatic.com/xdata/images/hotel/square200/250610834.webp?k=e9532541e093e71a613aab10ef1e0fa886bf0648c05384efaff7aaa0171721db&o=" class="small-image"> </div>
+               
+                <div class="hotel-information">
+                  <b> Hotel 2 </b><br>
+                  <a href="">show on map</a> <br>
+                   Hotel Lloret Ramblas is situated on Barcelona’s famous Las Ramblas, just outside Plaza Catalunya Square.
+                </div>
+
+            </div>
+            <div class="grid-item hotel-3">
+              <div class="hotel-image"> <img src="https://q-cf.bstatic.com/xdata/images/hotel/square200/41212587.webp?k=ec3266f130f222d074c32d3849ec8e874c550eced83b350f62605e14d536aa66&o=" class="small-image"> </div>
+           
+            <div class="hotel-information">
+              <b> Hotel 3 </b><br>
+              <a href="">show on map</a> <br>
+               Hotel Lloret Ramblas is situated on Barcelona’s famous Las Ramblas, just outside Plaza Catalunya Square.
+            </div>
+
+        </div>
+        
     
-  </div>
 
-  <div class="form-row">
-    <div class="col">
-      <input type="number" class="form-control" placeholder="Adults">
-      
-    </div>
-    <div class="col">
-      <input type="number" class="form-control" placeholder="Childern">
-    </div>
-    <div class="col">
-      <input type="number" class="form-control" placeholder="Rooms">
-    </div>
-  </div>
+</div>
 
-   <div class="form-check">
-    <label for="business traveller">Are you travelling for work?</label>
-    <div class="form-row">
-      
-     <div class="col">
-      <input type="checkbox" class="form-check-input" >
-      <label class="form-check-label" for="exampleCheck1">Yes</label>
-     </div>
-     <div class="col">
-      <input type="checkbox" class="form-check-input" >
-      <label class="form-check-label" for="exampleCheck1">No</label>
-     </div>
-    </div>
-
-  </div> 
-  
-  <button type="Search" class="btn btn-primary">Search</button>
-</form>
-
-<div class="grid-container">
-  <div class="grid-item">
-    <img src="https://sco.gov.pk/wp-content/uploads/2019/03/Nalter-Valley-5-1024x791.jpg" class="small-image"> 
-
-<p> Naltar valley<br> is famous for its colourful lakes, it is situated at a drive of 2.5 hours from Gilgit.
-World’s tastiest potatoes are cultivated here</p>
-
-</p> 
-
-
-  </div>
-          </div>
-    </body>
+         
+                          
+                      </div>
+              </div>
+            </div>
+      </body>
