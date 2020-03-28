@@ -10,3 +10,7 @@ padding-right: 15px;}
     flex-direction: row;
     padding-top: 50px;
 }
+body{
+    background-size: 100% 100%;
+    
+}
